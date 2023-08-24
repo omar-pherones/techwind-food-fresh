@@ -1,0 +1,144 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .section-padding {
+        padding: 4rem 0px;
+    }
+    #navbar {
+        padding: 15px 0px;
+        background-color: #fff;
+    }
+    #navbar .logodrak {
+        display: block;
+    }
+    #navbar .navbar-nav {
+        margin-top: 20px;
+        border-top: 1px solid #ddd;
+    }
+
+    #navbar .navbar-nav li a {
+        color: #4c515e !important;
+        padding: 10px 20px;
+        position: relative;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #navbar .navbar-nav li a i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 7px;
+        font-size: 12px;
+    }
+    #navbar .navbar-nav li a:hover {
+        color: #222 !important;
+    }
+    #banner .main-containten h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        width: auto;
+    }
+    #banner .main-containten h1 span {
+        display: block;
+    }
+    #banner .main-containten p {
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+        color: rgb(255 255 255 / 0.7) !important;
+        line-height: 1.7;
+    }
+    .about-image {
+        margin-bottom: 30px;
+    }
+    #about .about-content h4 {
+        margin: 1.5rem 0px;
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+    #about .about-content h4 span {
+        display: block;
+    }
+    #about .about-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    #navbar {
+        padding: 20px 0px;
+        background-color: #fff;
+    }
+    #banner .main-containten h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        width: 505px;
+        text-align: center;
+    }
+    #banner {
+        background-size: unset;
+        padding: 9rem 0;
+    }
+    #banner::before {
+        background-color: rgba(22 28 45 / 0.3) !important;+
+    }
+    #banner .main-containten p {
+        width: auto;
+    }
+    #about .about-image{
+        margin-bottom: 30px;
+    }
+    #food .food-itmes {
+        width: auto !important;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.987px) {
+    .section-padding {
+        padding: 6rem 0px;
+    }
+    #navbar {
+        padding: 20px 0px;
+        background-color: #fff;
+    }
+    #banner .main-containten h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        width: 505px;
+        text-align: center;
+    }
+    #banner {
+        background-size: unset;
+        padding: 9rem 0;
+    }
+    #banner::before {
+        background-color: rgba(22 28 45 / 0.3) !important;+
+    }
+    #about .about-content h4 span{
+        display: block;
+    }
+    #about .about-content h4 {
+        margin: 20px 0px;
+            font-size: 25px;
+            font-weight: 600;
+            color: #161c2d;
+            line-height: 30px;
+            font-family: inherit;
+    }
+    #about .about-content p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #94a3be;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #navbar{
+        background-color: transparent;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400.98px) {
+}
